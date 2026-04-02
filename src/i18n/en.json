@@ -1,0 +1,153 @@
+{
+  "navigation": {
+    "home": "Home",
+    "gapAnalysis": "Gap Analysis",
+    "regulations": "Regulations",
+    "roadmap": "Roadmap",
+    "funding": "Funding",
+    "joinNow": "Join Now",
+    "exploreSolutions": "Explore Solutions",
+    "viewPolicies": "View Policies"
+  },
+  "hero": {
+    "badge": "Mekong Delta Innovation Hub",
+    "title": "Transforming Environmental Pressures Into Valuable Resources",
+    "subtitle": "The Mekong Delta - Vietnam's rice bowl - faces serious challenges from climate change. We're here to promote circular economy solutions.",
+    "ctaPrimary": "Explore Solutions",
+    "ctaSecondary": "View Green Policies"
+  },
+  "urgencyCards": {
+    "saltwaterIntrusion": "Saltwater Intrusion",
+    "saltwaterIntrusionDesc": "Directly threatens rice cultivation and fruit tree areas.",
+    "landSubsidence": "Land Subsidence",
+    "landSubsidenceDesc": "Subsidence rate faster than sea level rise in many areas.",
+    "unusualFlooding": "Unusual Flooding",
+    "unusualFloodingDesc": "Causes severe damage to infrastructure and agricultural production."
+  },
+  "gapAnalysis": {
+    "title": "Gap Analysis",
+    "subtitle": "Introduction to 10 world-leading green technology innovations still missing in the Mekong Delta region. These are specific sources of inspiration for student projects.",
+    "originFrom": "Origin from",
+    "country": "Country",
+    "innovations": {
+      "1": {
+        "title": "Straw harvester for wetland areas",
+        "origin": "Straw Innovations - UK/Philippines",
+        "description": "The 'Straw Traktor' tracked harvester can collect straw directly on wetland, allowing straw to be used for bioenergy or mushroom cultivation instead of burning."
+      },
+      "2": {
+        "title": "Epigenetic seed treatment technology",
+        "origin": "SaliCrop - Israel",
+        "description": "Non-GMO seed treatment solution that activates natural stress resistance in crops, maintaining 10-25% higher yields in saline soil conditions."
+      },
+      "3": {
+        "title": "dMRV methane emission tracking platform",
+        "origin": "Mitti Labs / AgriCapture - USA",
+        "description": "Uses satellite imagery and AI to verify methane reduction from AWD practices, helping farmers connect with international carbon credit markets transparently."
+      },
+      "4": {
+        "title": "Pay-per-use solar irrigation service",
+        "origin": "Oorja - India",
+        "description": "Pay-Per-Use model where businesses own assets and farmers only pay for irrigation water used, eliminating upfront investment costs."
+      },
+      "5": {
+        "title": "Automatic river plastic collection robot",
+        "origin": "The Ocean Cleanup - Netherlands",
+        "description": "The 'Interceptor' system consists of solar-powered autonomous barges that can collect up to 50,000kg of waste daily without noise or emissions."
+      },
+      "6": {
+        "title": "Bio-leather from flower and fruit waste",
+        "origin": "Phool - India",
+        "description": "Developed 'Fleather™', a plant-based leather made from flower waste, applicable to pineapple residue or banana stems locally to create premium export fashion products."
+      },
+      "7": {
+        "title": "Biofloc shrimp farming system in mobile containers",
+        "origin": "Atarraya - Mexico/USA",
+        "description": "High-tech 'Shrimp-in-a-Box' system allowing indoor shrimp farming with completely controlled environment, no water changes and extremely high productivity."
+      },
+      "8": {
+        "title": "AI-powered food waste measurement device",
+        "origin": "Winnow - UK",
+        "description": "Uses smart scales integrated with AI to analyze waste in industrial kitchens, helping chefs reduce food waste by 50%."
+      },
+      "9": {
+        "title": "Supercritical CO2 fabric dyeing",
+        "origin": "DyeCoo - Netherlands",
+        "description": "Uses high pressure as solvent to dissolve dyes, completely eliminating water and chemical use in the dyeing process."
+      },
+      "10": {
+        "title": "Black Soldier Fly protein processing",
+        "origin": "Loopworm / Nutrition Technologies - Malaysia/India",
+        "description": "Uses Black Soldier Fly larvae to convert organic waste into high-quality protein powder for fish and shrimp, helping close the resource loop."
+      }
+    }
+  },
+  "regulations": {
+    "title": "Carbon Market & Green Incentives Roadmap",
+    "subtitle": "Decree 06/2022 and Decision 21/2025 open opportunities for 'green' projects to access preferential tax rates and international carbon markets.",
+    "carbonMarketTitle": "Carbon Market (Decree 06/2022)",
+    "carbonMarketDesc": "Establishes domestic carbon market framework, aiming for international connection by 2028.",
+    "greenClassificationTitle": "Green Classification (Decision 21/2025)",
+    "greenClassificationDesc": "The 'passport' for businesses to access preferential loans and green credit.",
+    "incentivesTitle": "Green Tax Incentives",
+    "incentivesList": {
+      "cit": "Corporate Income Tax (CIT)",
+      "citDesc": "Preferential tax rate of 10% for 15 years (instead of 20%), tax exemption for first 4 years and 50% reduction for next 9 years for environmental protection projects.",
+      "importTax": "Import Tax",
+      "importTaxDesc": "Exemption of import tax on machinery, equipment, and materials used for green projects that are not yet produced domestically.",
+      "landIncentives": "Land Incentives",
+      "landIncentivesDesc": "Allocation of cleared land for green projects without going through land use right auction.",
+      "interestSupport": "Interest Rate Support",
+      "interestSupportDesc": "Access to loans with interest rates 0.5% to 2% lower than usual through the Vietnam Environment Protection Fund."
+    }
+  },
+  "roadmap": {
+    "title": "Post-Competition Development Roadmap",
+    "subtitle": "A 3-stage journey to transform ideas from university concepts into market-ready enterprises.",
+    "stage1": "Incubation Stage",
+    "duration1": "0-12 months",
+    "focus1": [
+      "Enter CTU or NIC Innovation Center",
+      "Protect intellectual property (IP)",
+      "Complete minimum viable product (MVP)"
+    ],
+    "stage2": "Commercial Trial Stage",
+    "duration2": "12-24 months",
+    "focus2": [
+      "Pilot in saline-affected areas or large farms (such as Lộc Trời Group)",
+      "Register to participate in Circular Economy Sandbox to receive incentives"
+    ],
+    "stage3": "Expansion Stage",
+    "duration3": "24-48 months",
+    "focus3": [
+      "Establish MRV systems to create carbon credits",
+      "Access venture capital funds (ESG) such as Mekong Capital or Touchstone Partners",
+      "Raise Series A/B funding rounds"
+    ]
+  },
+  "funding": {
+    "title": "Funding Sources Directory",
+    "subtitle": "International funding sources proving financial feasibility for innovative projects in the Mekong Delta.",
+    "allSources": "View all funding sources",
+    "usaid": "USAID Climate-Resilient Agriculture (CRM)",
+    "usaidAmount": "48 million USD",
+    "usaidDesc": "Supports low-emission agricultural livelihoods in 5 Mekong Delta provinces (2023-2028).",
+    "wbGcf": "MERIT Project (World Bank/GCF)",
+    "wbGcfAmount": "500 million USD",
+    "wbGcfDesc": "Focuses on nature-based solutions (NbS) in agriculture, such as shrimp-rice and fish-sen models.",
+    "mkcf": "Mekong-Korea Cooperation Fund (MKCF)",
+    "mkcfAmount": "Specific grants",
+    "mkcfDesc": "Grants for the 'RiceEco' project to promote sustainable rice straw management."
+  },
+  "footer": {
+    "about": "Promoting circular economy and green innovation in the Mekong Delta. Transforming waste into resources.",
+    "links": "Links",
+    "contact": "Contact",
+    "email": "Email: diepho@edunetjsc.com",
+    "address": "Address: Room1 R&D Labs, QTSC, Trung My Tay Ward, HCMC",
+    "phone": "Hotline: +84 946 317 379",
+    "copyright": "© 2026 Nothing Goes to Waste. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

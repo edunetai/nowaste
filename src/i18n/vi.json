@@ -1,0 +1,153 @@
+{
+  "navigation": {
+    "home": "Trang chủ",
+    "gapAnalysis": "Phân tích Khoảng cách",
+    "regulations": "Quy định",
+    "roadmap": "Lộ trình",
+    "funding": "Tài trợ",
+    "joinNow": "Tham gia ngay",
+    "exploreSolutions": "Khám phá giải pháp",
+    "viewPolicies": "Xem chính sách ưu đãi"
+  },
+  "hero": {
+    "badge": "Đổi Mới Sáng Tạo Đồng Bằng Sông Cửu Long",
+    "title": "Biến Áp Lực Môi Trường Thành Tài Nguyên Giá Trị",
+    "subtitle": "Đồng bằng sông Cửu Long - \"vựa lúa\" của Việt Nam đang đối mặt với những thách thức nghiêm trọng từ biến đổi khí hậu. Chúng tôi ở đây để thúc đẩy kinh tế tuần hoàn.",
+    "ctaPrimary": "Khám phá giải pháp",
+    "ctaSecondary": "Xem chính sách ưu đãi"
+  },
+  "urgencyCards": {
+    "saltwaterIntrusion": "Xâm nhập mặn",
+    "saltwaterIntrusionDesc": "Đe dọa trực tiếp đến diện tích canh tác lúa và cây ăn trái.",
+    "landSubsidence": "Sụt lún đất",
+    "landSubsidenceDesc": "Tốc độ sụt lún nhanh hơn mực nước biển dâng tại nhiều khu vực.",
+    "unusualFlooding": "Lũ lụt bất thường",
+    "unusualFloodingDesc": "Gây thiệt hại nặng nề cho hạ tầng và sản xuất nông nghiệp."
+  },
+  "gapAnalysis": {
+    "title": "Phân tích Khoảng cách",
+    "subtitle": "Giới thiệu 10 đổi mới công nghệ xanh hàng đầu thế giới còn thiếu tại khu vực ĐBSCL. Đây là nguồn cảm hứng cụ thể cho các dự án của sinh viên.",
+    "originFrom": "Xuất xứ từ",
+    "country": "Quốc gia",
+    "innovations": {
+      "1": {
+        "title": "Máy thu hoạch rơm rạ cho vùng đất ngập nước",
+        "origin": "Straw Innovations - Anh/Philippines",
+        "description": "Máy thu hoạch bánh xích 'Straw Traktor' có thể thu gom rơm trực tiếp trên đất ngụt, cho phép sử dụng rơm cho năng lượng sinh học hoặc trồng nấm thay vì đốt bỏ."
+      },
+      "2": {
+        "title": "Xử lý hạt giống bằng công nghệ biểu di truyền",
+        "origin": "SaliCrop - Israel",
+        "description": "Giải pháp xử lý hạt giống không biến đổi gen (non-GMO) giúp kích hoạt khả năng kháng stress tự nhiên của cây trồng, duy trì năng suất cao hơn 10–25% trong điều kiện đất mặn."
+      },
+      "3": {
+        "title": "Nền tảng dMRV theo dõi phát thải methane",
+        "origin": "Mitti Labs / AgriCapture - Mỹ",
+        "description": "Sử dụng hình ảnh vệ tinh và AI để xác thực việc giảm methane từ thực hành AWD, giúp nông dân kết nối với thị trường tín chỉ quốc tế một cách minh bạch."
+      },
+      "4": {
+        "title": "Dịch vụ tưới tiêu năng lượng mặt trời trả phí",
+        "origin": "Oorja - Ấn Độ",
+        "description": "Mô hình Pay-Per-Use (trả theo lượng dùng), doanh nghiệp sở hữu tài sản và nông dân chỉ trả tiền cho lượng nước tưới, giúp loại bỏ chi phí đầu tư ban đầu."
+      },
+      "5": {
+        "title": "Robot thu gom nhựa trên sông tự động",
+        "origin": "The Ocean Cleanup - Hà Lan",
+        "description": "Hệ thống 'Interceptor' là các sà lan tự động dùng năng lượng mặt trời có thể thu gom tới 50.000kg rác mỗi ngày mà không gây tiếng ồn hay khí thải."
+      },
+      "6": {
+        "title": "Da sinh học từ phụ phẩm hoa và trái cây",
+        "origin": "Phool - Ấn Độ",
+        "description": "Phát triển 'Fleather™', một loại da thực vật làm từ phụ phẩm hoa, có thể áp dụng cho bã dứa hoặc thân chuối tại địa phương để tạo ra sản phẩm thời trang xuất khẩu cao cấp."
+      },
+      "7": {
+        "title": "Hệ thống Biofloc nuôi tôm trong các container di động",
+        "origin": "Atarraya - Mexico/Mỹ",
+        "description": "Hệ thống 'Shrimp-in-a-Box' công nghệ cao cho phép nuôi tôm trong nhà với môi trường kiểm soát hoàn toàn, không thay nước và năng suất cực cao."
+      },
+      "8": {
+        "title": "Thiết bị đo lường lãng phí thực phẩm bằng AI",
+        "origin": "Winnow - Anh",
+        "description": "Sử dụng cân thông minh tích hợp AI để phân tích rác thải trong bếp ăn công nghiệp, giúp các đầu bếp giảm 50% lượng thực phẩm lãng phí."
+      },
+      "9": {
+        "title": "Nhuộm vải bằng khí CO2 siêu tới hạn",
+        "origin": "DyeCoo - Hà Lan",
+        "description": "Sử dụng áp suất cao làm dung môi hòa tan thuốc nhuộm, loại bỏ hoàn toàn việc sử dụng nước và hóa chất trong quá trình nhuộm."
+      },
+      "10": {
+        "title": "Chế biến protein từ Ruồi lính đen",
+        "origin": "Loopworm / Nutrition Technologies - Malaysia/Ấn Độ",
+        "description": "Sử dụng ấu trùng Ruồi lính đen để chuyển hóa rác thải hữu cơ thành bột protein chất lượng cao cho cá và tôm, giúp đóng vòng lặp tài nguyên."
+      }
+    }
+  },
+  "regulations": {
+    "title": "Lộ trình Thị trường Carbon & Ưu đãi Xanh",
+    "subtitle": "Nghị định 06/2022 và Quyết định 21/2025 mở ra cơ hội cho các dự án \"xanh\" tiếp cận thuế suất ưu đãi và thị trường carbon quốc tế.",
+    "carbonMarketTitle": "Thị trường Carbon (Nghị định 06/2022)",
+    "carbonMarketDesc": "Thiết lập khung thị trường carbon trong nước, hướng tới kết nối quốc tế năm 2028.",
+    "greenClassificationTitle": "Phân loại Xanh (Quyết định 21/2025)",
+    "greenClassificationDesc": "\"Hộ chiếu\" để doanh nghiệp tiếp cận các nguồn vốn vay ưu đãi và tín dụng xanh.",
+    "incentivesTitle": "Ưu đãi thuế xanh",
+    "incentivesList": {
+      "cit": "Thuế thu nhập doanh nghiệp (CIT)",
+      "citDesc": "Thuế suất ưu đãi 10% trong 15 năm (thay vì 20%), miễn thuế trong 4 năm đầu và giảm 50% trong 9 năm tiếp theo cho các dự án bảo vệ môi trường.",
+      "importTax": "Thuế nhập khẩu",
+      "importTaxDesc": "Miễn thuế nhập khẩu đối với máy móc, thiết bị và vật liệu dùng cho các dự án xanh mà trong nước chưa sản xuất được.",
+      "landIncentives": "Ưu đãi Đất đai",
+      "landIncentivesDesc": "Giao đất đã giải phóng mặt bằng cho các dự án xanh mà không thông qua đấu giá quyền sử dụng đất.",
+      "interestSupport": "Hỗ trợ lãi suất",
+      "interestSupportDesc": "Tiếp cận khoản vay với lãi suất thấp hơn từ 0,5% đến 2% so với thông thường thông qua Quỹ Bảo vệ Môi trường Việt Nam."
+    }
+  },
+  "roadmap": {
+    "title": "Lộ trình Phát triển Sau Cuộc thi",
+    "subtitle": "Hành trình 3 giai đoạn để chuyển đổi ý tưởng từ khái niệm đại học thành doanh nghiệp sẵn sàng cho thị trường.",
+    "stage1": "Giai đoạn Ươm tạo",
+    "duration1": "0–12 tháng",
+    "focus1": [
+      "Vào Trung tâm Đổi mới Sáng tạo của ĐHCT hoặc NIC",
+      "Bảo hộ tài sản trí tuệ (IP)",
+      "Hoàn thiện sản phẩm khả thi tối thiểu (MVP)"
+    ],
+    "stage2": "Giai đoạn Thử nghiệm Thương mại",
+    "duration2": "12–24 tháng",
+    "focus2": [
+      "Thí điểm tại các vùng ngập mặn hoặc các trang trại lớn (như Tập đoàn Lộc Trời)",
+      "Đăng ký tham gia Sandbox kinh tế tuần hoàn để nhận ưu đãi"
+    ],
+    "stage3": "Giai đoạn Mở rộng",
+    "duration3": "24–48 tháng",
+    "focus3": [
+      "Thiết lập hệ thống MRV để tạo tín chỉ carbon",
+      "Tiếp cận các quỹ đầu tư mạo hiểm (ESG) như Mekong Capital hoặc Touchstone Partners",
+      "Huy động vốn vòng Series A/B"
+    ]
+  },
+  "funding": {
+    "title": "Danh bạ Nguồn vốn",
+    "subtitle": "Các nguồn tài trợ quốc tế chứng minh tính khả thi về mặt tài chính cho các dự án đổi mới sáng tạo tại ĐBSCL.",
+    "allSources": "Xem tất cả nguồn vốn",
+    "usaid": "USAID Nông nghiệp Thích ứng Khí hậu (CRM)",
+    "usaidAmount": "48 triệu USD",
+    "usaidDesc": "Hỗ trợ sinh kế nông nghiệp phát thải thấp tại 5 tỉnh ĐBSCL (2023–2028).",
+    "wbGcf": "Dự án MERIT (Ngân hàng Thế giới/GCF)",
+    "wbGcfAmount": "500 triệu USD",
+    "wbGcfDesc": "Tập trung vào các giải pháp thuận thiên (NbS) trong nông nghiệp, như mô hình tôm-lúa và cá-sen.",
+    "mkcf": "Quỹ Hợp tác Mekong – Hàn Quốc (MKCF)",
+    "mkcfAmount": "Tài trợ cụ thể",
+    "mkcfDesc": "Tài trợ cho dự án 'RiceEco' nhằm thúc đẩy quản lý rơm rạ bền vững."
+  },
+  "footer": {
+    "about": "Thúc đẩy kinh tế tuần hoàn và đổi mới sáng tạo xanh tại Đồng bằng sông Cửu Long. Biến rác thải thành tài nguyên.",
+    "links": "Liên kết",
+    "contact": "Liên hệ",
+    "email": "Email: diepho@edunetjsc.com",
+    "address": "Địa chỉ: Phòng 1 R&D Labs, QTSC, P.Trung My Tay, TP.HCM",
+    "phone": "Hotline: +84 946 317 379",
+    "copyright": "© 2026 Nothing Goes to Waste. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

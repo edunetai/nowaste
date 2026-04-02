@@ -1,0 +1,86 @@
+# ==========================================
+# Docker Compose - Production Configuration
+# ==========================================
+# HauGiang React Website
+# 
+# Usage:
+#   docker-compose up -d          # Start services
+#   docker-compose logs -f        # View logs
+#   docker-compose down          # Stop services
+#   docker-compose build --no-cache # Rebuild from scratch
+
+services:
+  # ==========================================
+  # React Frontend Application
+  # ==========================================
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # Build arguments can be added here if needed
+        NODE_ENV: production
+    container_name: haugiang-web
+    restart: unless-stopped
+    ports:
+      - "8091:80"
+      # HTTPS port (uncomment if SSL certificates are configured)
+      # - "443:443"
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.docker.compose.project=haugiang"
+      - "com.docker.compose.service=web"
+      - "traefik.enable=true"
+      - "traefik.http.routers.haugiang.rule=Host(`localhost`)"
+      - "traefik.http.routers.haugiang.entrypoints=web"
+      - "traefik.http.services.haugiang.loadbalancer.server.port=80"
+      - "description=HauGiang React Website - Mekong Delta Innovation Hub"
+      - "maintainer=contact@nothinggotowaste.vn"
+    networks:
+      - haugiang-network
+    volumes:
+      # Optional: Mount SSL certificates if HTTPS is configured
+      # - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+  # ==========================================
+  # Optional: Nginx Reverse Proxy
+  # (Uncomment if you need Traefik or additional routing)
+  # ==========================================
+  # nginx-proxy:
+  #   image: nginx:alpine
+  #   container_name: haugiang-proxy
+  #   restart: unless-stopped
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+  #     - ./ssl:/etc/nginx/ssl:ro
+  #   networks:
+  #     - haugiang-network
+  #   labels:
+  #     - "com.docker.compose.project=haugiang"
+  #     - "com.docker.compose.service=proxy"
+
+# ==========================================
+# Networks
+# ==========================================
+networks:
+  haugiang-network:
+    driver: bridge
+
+# ==========================================
+# Volumes (for persistent data if needed)
+# ==========================================
+# volumes:
+#   # Uncomment if you need to persist any data
+#   nginx-logs:
+#     driver: local
