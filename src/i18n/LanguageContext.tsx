@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import en from './en.json';
 import vi from './vi.json';
 
@@ -12,28 +12,24 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-const translations = {
+const translations: Record<Language, typeof en> = {
   en,
   vi,
 };
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
-    // Check localStorage for saved language preference
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('language');
       if (saved === 'en' || saved === 'vi') {
         return saved;
       }
     }
-    // Default to Vietnamese
     return 'vi';
   });
 
   useEffect(() => {
-    // Save language preference to localStorage
     localStorage.setItem('language', language);
-    // Update HTML lang attribute
     document.documentElement.lang = language;
   }, [language]);
 
@@ -41,28 +37,32 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     setLanguageState(lang);
   };
 
-  const t = (key: string): string => {
-    const keys = key.split('.');
-    let value: Record<string, unknown> | string = translations[language];
-    
+  const resolvePath = (obj: Record<string, unknown>, keys: string[]): string | Record<string, unknown> => {
+    let current: string | Record<string, unknown> = obj;
     for (const k of keys) {
-      if (value && typeof value === 'object' && k in value) {
-        value = (value as Record<string, unknown>)[k];
+      if (current && typeof current === 'object' && k in current) {
+        current = (current as Record<string, unknown>)[k] as Record<string, unknown>;
       } else {
-        let fallback: Record<string, unknown> | string = translations.en;
-        for (const k2 of keys) {
-          if (fallback && typeof fallback === 'object' && k2 in fallback) {
-            fallback = (fallback as Record<string, unknown>)[k2];
-          } else {
-            return key;
-          }
-        }
-        value = fallback;
-        break;
+        return '';
       }
     }
+    return current;
+  };
+
+  const t = (key: string): string => {
+    const keys = key.split('.');
+    const result = resolvePath(translations[language] as unknown as Record<string, unknown>, keys);
     
-    return typeof value === 'string' ? value : key;
+    if (typeof result === 'string' && result !== '') {
+      return result;
+    }
+
+    const fallbackResult = resolvePath(translations.en as unknown as Record<string, unknown>, keys);
+    if (typeof fallbackResult === 'string' && fallbackResult !== '') {
+      return fallbackResult;
+    }
+    
+    return key;
   };
 
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'motion/react';
 import { useLanguage } from '../i18n/LanguageContext';
 import { TrendingUp, TrendingDown, Clock, RefreshCw } from 'lucide-react';
